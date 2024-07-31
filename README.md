@@ -2,9 +2,9 @@
 
 >Autor: Agustin Alvarez
 
->Fecha: 22/5/2024
+>Fecha: 30/7/2024
 
->Versión: 1.0
+>Versión: 1.1
 
 >Lenguaje: Bash
 
@@ -21,3 +21,4 @@ Para el borrado intenta usar la instrucción de secure erase si lo soporta el di
 
 ## Changelog
 21/5/2024	Release incial
+30/7/2024	Actualización de la comprobación del comando nvme-cli y tecto formato Unix

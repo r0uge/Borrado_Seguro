@@ -2,7 +2,7 @@
 # Autor: Agustin Alvarez
 # Descripcion: Script para el borrado seguro de discos locales magneticos, SSD y NVMe 
 # Requiere tener instalado:  nvme-cli, hdparm, coreutils (shred)
-# Version: 1.0 (22/05/2024)
+# Version: 1.1 (30/07/2024)
 
 # Function to check if a disk supports Secure Erase (hdparm)#!/bin/bash
 
@@ -14,7 +14,7 @@ then
 fi
 
 # Verificar si nvme-cli está instalado
-if ! command -v nvme-cli &> /dev/null
+if ! command -v nvme &> /dev/null
 then
     echo "NVMe CLI no está instalado. Por favor, instálalo e intenta de nuevo."
     exit 1
